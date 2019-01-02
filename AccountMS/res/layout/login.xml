@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal"
+        android:text="登录页"
+        android:textColor="#8C6931"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="(如未设置密码，请直接点击登陆)"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/txtLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_alignLeft="@+id/btnLogin"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginTop="22dp"
+        android:text="取消" />
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin_fortest"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_alignLeft="@+id/btnClose"
+        android:layout_below="@+id/btnClose"
+        android:layout_marginTop="22dp"
+        android:text="登录并加入测试数据" />
+
+</RelativeLayout>
